@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-container">
+            <h2>Portfo <span>lio</span></h2>
+            <ul class="nav-items v-class">
+                <li class="item"><a href="index.html">HOME</a></li>
+                <li class="item"><a href="about.html">ABOUT</a></li>
+                <li class="item"><a href="projects.html">PROJECTS</a></li>
+                <li class="item"><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="hamburger ">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class="contact-container">
+            <h1>Better Together</h1>
+            <div class="contact-area">
+                <div class="info-left">
+                    <p>I enjoy working with dedicated creatives from business that make the world beautiful</p>
+                    <br>
+                    <p>We can make so much together. <span>Lets Talk.</span></p>
+                    <br>
+                    <p>If you want mail: <a href="devrajvirsingh@gmail.com">devrajvirsingh@gmail.com</a></p>
+                    <p>If you want to hear my voice: +91 968 252 8868</p>
+                    <p>If you want to visit my GIT: <a
+                            href="https://github.com/devrajvirsingh">github.com/devrajvirsingh</a></p>
+                </div>
+
+                <div class="info-right">
+                    <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                        <input type="hidden" name="access_key" value="e86a903e-1ebb-447a-b6f8-97573028c90b">
+                        <input type="text" name="name" placeholder="Enter Your Name">
+                        <br>
+                        <input type="email" name="email" placeholder="Enter your Email">
+                        <br>
+                        <input type="number" name="number" placeholder="Enter your Contact Number">
+                        <br>
+                        <input type="text" name="message" placeholder="Type your message here.......">
+                        <br>
+                        <br>
+                        <button type="submit" class="contact-btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container-footer">
+            <div class="f">
+                <h2>ABOUT US</h2>
+                <p>With a hunger for learning and an eye for detail, I'm ready to embrace challenges and unravel new
+                    possibilities in the ever-evolving world of web development.</p>
+            </div>
+            <div class="f">
+                <h2>INFORMATION</h2>
+                <ul>
+                    <li>Portfolio</li>
+                    <li>Privacy</li>
+                    <li>Terms and Conditions</li>
+                </ul>
+            </div>
+            <div class="f">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let hamburger = document.querySelector('.hamburger')
+        let nav_items = document.querySelector('.nav-items')
+        hamburger.addEventListener('click', () => {
+            nav_items.classList.toggle('v-class')
+        })
+    </script>
+
+
+
+
+</body>
+
+</html>

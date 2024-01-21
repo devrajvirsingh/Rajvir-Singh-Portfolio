@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-about</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-container">
+            <h2>Portfo <span>lio</span></h2>
+            <ul class="nav-items v-class">
+                <li class="item"><a href="index.html">HOME</a></li>
+                <li class="item"><a href="about.html">ABOUT</a></li>
+                <li class="item"><a href="projects.html">PROJECTS</a></li>
+                <li class="item"><a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="hamburger ">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-container">
+            <div class="about-child-1">
+                <h1>About Me</h1>
+                <p>I'm thrilled to introduce myself as a fresher in the world of web development. Armed with a strong
+                    foundation in HTML, CSS, and JavaScript, I'm eager to translate my passion for coding into creating
+                    functional and visually appealing websites. My journey is fueled by curiosity and a keen eye for
+                    design. I believe in the power of combining creativity with technology to deliver seamless user
+                    experiences. With a focus on continuous learning, I'm excited to embrace new challenges and
+                    contribute fresh perspectives to the field. I'm here to collaborate, learn, and grow. Let's build a
+                    digital future together.</p>
+            </div>
+            <div class="about-child-2">
+                <h1>MY SKILLS</h1>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BootStrap</li>
+                    <li>Responsive Web Design</li>
+                    <li>JavaScript</li>
+                    <li>NodeJS</li>
+                    <li>ReactJS</li>
+                    <li>ExpressJS</li>
+                    <li>MongoDB</li>
+                    <li>MERN Stack</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container-footer">
+            <div class="f">
+                <h2>ABOUT US</h2>
+                <p>With a hunger for learning and an eye for detail, I'm ready to embrace challenges and unravel new
+                    possibilities in the ever-evolving world of web development.</p>
+            </div>
+            <div class="f">
+                <h2>INFORMATION</h2>
+                <ul>
+                    <li>Portfolio</li>
+                    <li>Privacy</li>
+                    <li>Terms and Conditions</li>
+                </ul>
+            </div>
+            <div class="f">
+                <h2>Links</h2>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let hamburger = document.querySelector('.hamburger')
+        let nav_items = document.querySelector('.nav-items')
+        hamburger.addEventListener('click', () => {
+            nav_items.classList.toggle('v-class')
+        })
+    </script>
+
+</body>
+
+</html>
